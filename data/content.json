@@ -1,6 +1,6 @@
 {
   "nav": {
-    "logo": "Carlos W. <span>Quezada de la Cruz</span>",
+    "logo": "Carlos <span>Quezada</span>",
     "links": [
       { "label": "Home", "href": "#home" },
       { "label": "About", "href": "#about" },
@@ -11,7 +11,7 @@
   },
   "home": {
     "subtitle": "Hello, <span>I'm</span>",
-    "title": "Carlos W. Quezada de la Cruz",
+    "title": "Carlos Quezada",
     "education": "Front-end Developer",
     "description": "Desarrollador full-stack apasionado por crear experiencias web modernas y funcionales. Especializado en front-end con HTML, CSS, JavaScript y React Native, construyo soluciones digitales que combinan diseño atractivo con rendimiento sólido.",
     "button": "Let's Talk",
@@ -67,13 +67,13 @@
     "title": "Contact Me"
   },
   "footer": {
-    "title": "Carlos W. <span>Quezada de la Cruz.</span>",
+    "title": "Carlos <span>Quezada</span>",
     "education": "Front-end Developer",
     "social": [
       { "url": "https://www.facebook.com/", "icon": "ri-facebook-circle-line", "label": "Facebook" },
       { "url": "https://www.instagram.com/", "icon": "ri-instagram-line", "label": "Instagram" },
       { "url": "", "icon": "ri-whatsapp-line", "label": "WhatsApp" }
     ],
-    "copy": "&#169; Copyright Carlos W. Quezada de la Cruz. All rights reserved"
+    "copy": "&#169; Copyright Carlos Quezada. All rights reserved"
   }
 }

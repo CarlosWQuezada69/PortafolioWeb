@@ -1,4 +1,4 @@
-# Portafolio Personal — Carlos W. Quezada de la Cruz
+# Portafolio Personal — Carlos Quezada
 
 Portafolio web responsive desarrollado con HTML, CSS y JavaScript.
 
