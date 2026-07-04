@@ -1,16 +1,23 @@
-# Responsive Portfolio Website Patrick
-## [Watch it on youtube](https://youtu.be/Y4-xMb-eHOQ)
-### Responsive Portfolio Website Patrick
+# Portafolio Personal — Carlos W. Quezada de la Cruz
 
-- Responsive Portfolio Website Design Using HTML CSS & JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Contains a beautiful dark theme.
-- The color of the project can be customized.
-- Sending emails in the contact section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+Portafolio web responsive desarrollado con HTML, CSS y JavaScript.
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
+## Características
 
-![preview img](/preview.png)
+- Diseño responsive (Mobile First)
+- Animaciones con ScrollReveal
+- Formulario de contacto con EmailJS
+- Modo oscuro
+- Optimizado para rendimiento y SEO
+
+## Tecnologías
+
+- HTML5
+- CSS3 (Flexbox, Grid, Glassmorphism, animaciones)
+- JavaScript (Vanilla)
+- ScrollReveal
+- EmailJS
+
+## Contacto
+
+- GitHub: [CarlosWQuezada69](https://github.com/CarlosWQuezada69)
