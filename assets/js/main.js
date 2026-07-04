@@ -35,48 +35,43 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*=============== ADD BLUR TO HEADER ===============*/
 const blurHeader = () =>{
     const header = document.getElementById('header')
-    // When the scroll is greater than 50 viewport height, add the blur-header class to the header tag
-    this.scrollY >= 50 ? header.classList.add('blur-header') 
-                       : header.classList.remove('blur-header')
+    window.scrollY >= 50 ? header.classList.add('blur-header') 
+                        : header.classList.remove('blur-header')
 }
 window.addEventListener('scroll', blurHeader)
 
 /*=============== EMAIL JS ===============*/
- /*   const contactForm = document.getElementById("contact-form"),
-        contactMessage = document.getElementById("contact-message")
+const contactForm = document.getElementById("contact-form"),
+      contactMessage = document.getElementById("contact-message")
 
 const sendEmail = (e) =>{
     e.preventDefault()
 
     // serviceID - templateID - #form - publicKey
-        emailjs.sendEmail("service_l487ttg", "template_n7t9c2d", "contact-form", "vHHXCuAcW2lpkXbwL")
-            .then(()=>{
+    emailjs.sendForm("service_YOURSERVICEID", "template_YOURTEMPLATEID", "#contact-form", "YOUR_PUBLIC_KEY")
+        .then(()=>{
+            contactMessage.textContent = "Message sent successfully 👍"
 
-                // Show sent message
-                contactMessage.textContent = "Message sent successfully 👍"
+            setTimeout(()=>{
+                contactMessage.textContent=""
+            }, 5000)
 
-                //Remove message after five seconds
-                setTimeout(()=>{
-                    contactMessage.textContent=""
-                }, 5000)
-                //Clear input fields
-                contactForm.reset()
+            contactForm.reset()
 
-            }, ()=>{
-                // Show error message
-                contactMessage.textContent = "Message not sent (service error) 😵"
-            })
+        }, ()=>{
+            contactMessage.textContent = "Message not sent (service error) 😵"
+        })
 }
 
-contactForm.addEventListener("submit", sendEmail)
-*/
+if(contactForm){
+    contactForm.addEventListener("submit", sendEmail)
+}
 
 /*=============== SHOW SCROLL UP ===============*/ 
     const scrollUp = () => {
         const scrollUp = document.getElementById("scroll-up")
-        //When the scroll is higher than 350 viewport height, add the show-scroll class to te tag with the scrollup
-        this.scrollY >= 350 ? scrollUp.classList.add("show-scroll")
-                        :scrollUp.classList.remove("show-scroll")
+        window.scrollY >= 350 ? scrollUp.classList.add("show-scroll")
+                             : scrollUp.classList.remove("show-scroll")
     }
     window.addEventListener("scroll", scrollUp);
 
@@ -106,10 +101,9 @@ window.addEventListener('scroll', scrollActive)
     const sr = ScrollReveal({
         origin: "top",
         distance: "60px",
-        duration: "2500",
-        dealy: "400",
-        reset:"true",
-        //reset: truw // Animations repeat
+        duration: 2000,
+        delay: 300,
+        reset: false
     })
 
     sr.reveal(`.home__data, .home__social, .footer__container`)
@@ -117,7 +111,7 @@ window.addEventListener('scroll', scrollActive)
     sr.reveal(`.about__data, .skills__data`, {origin:"left"})
     sr.reveal(`.about__image, .skills__content`, {origin:"right"})
     sr.reveal(`.services__card, .projects__card`, {interval: 100})
-    sr.reveal(``, {origin:"right"})
+    sr.reveal(`.contact__container`, {origin:"bottom"})
     
 
 

@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-   <html lang="en">
+   <html lang="es">
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+      <!--=============== META SEO ===============-->
+      <meta name="description" content="Portafolio de Carlos W. Quezada de la Cruz — Desarrollador full-stack especializado en front-end con HTML, CSS, JavaScript y React Native.">
+      <meta name="keywords" content="desarrollador web, front-end, React Native, portafolio, HTML, CSS, JavaScript, Carlos Quezada">
+      <meta name="author" content="Carlos W. Quezada de la Cruz">
+      <meta name="robots" content="index, follow">
+
+      <!--=============== OPEN GRAPH ===============-->
+      <meta property="og:title" content="Carlos W. Quezada — Portafolio">
+      <meta property="og:description" content="Desarrollador full-stack apasionado por crear experiencias web modernas y funcionales.">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="">
+      <meta property="og:image" content="./assets/img/perfil.webp">
+
       <!--=============== FAVICON ===============-->
       <link rel="shortcut icon" href="assets/img/letter-w.png" type="image/x-icon">
+
+      <!--=============== GOOGLE FONTS ===============-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
       <!--=============== REMIXICONS ===============-->
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
@@ -13,12 +31,12 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Carlos Warner's Portafolio</title>
+      <title>Carlos W. Quezada — Portafolio</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         <nav class="nav container">
+         <nav class="nav container" aria-label="Navegación principal">
             <a href="#" class="nav__logo">
                Carlos W. <span>Quezada de la Cruz</span>
             </a>
@@ -70,30 +88,29 @@
                         Hello, <span>I'm</span>
                      </h3>
 
-                     <h1 class="home__tittle">Carlos W. Quezada de la Cruz</h1>
+                      <h1 class="home__title">Carlos W. Quezada de la Cruz</h1>
 
                      <h3 class="home__education">Front-end Developer</h3>
 
                      <p class="home__description">
-                        Meet Carlos Warner Quezada de la Cruz, a talented developer
-                        skilled in both front-end and back-end development.
-                        With a flair for creating captivating user interfaces
-                        and strong proficiency in languages like HTML, CSS, 
-                        JavaScript, and React Native, Carlos Warner Quezada de la Cruz crafts
-                        seamless web experiences.
+                        Desarrollador full-stack apasionado por crear experiencias
+                        web modernas y funcionales. Especializado en front-end
+                        con HTML, CSS, JavaScript y React Native, construyo
+                        soluciones digitales que combinan diseño atractivo
+                        con rendimiento sólido.
                      </p>
 
                      <a href="#contact" class="button">Let's Talk</a>
                   </div>
 
                   <div class="home__social">
-                     <a href="https://github.com/" target="_blank"  class="home__social-link">
+                     <a href="https://github.com/" target="_blank" class="home__social-link" aria-label="GitHub">
                         <i class="ri-github-fill"></i>
                      </a>
-                     <a href="https://www.linkedin.com/" target="_blank"  class="home__social-link">
+                     <a href="https://www.linkedin.com/" target="_blank" class="home__social-link" aria-label="LinkedIn">
                         <i class="ri-linkedin-box-line"></i>
                      </a>
-                     <a href="https://www.instagram.com/" target="_blank"  class="home__social-link">
+                     <a href="https://www.instagram.com/" target="_blank" class="home__social-link" aria-label="Instagram">
                         <i class="ri-instagram-line"></i>
                      </a>
                   </div>
@@ -128,8 +145,7 @@
                            <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
                         </pattern>
                   
-                        <!-- Insert your profile (recommended size: 640 x 940) -->
-                        <image class="home__img" id="imageBlob" width="640" height="925" href="./assets/img/perfil.png"/>
+                          <image class="home__img" id="imageBlob" width="640" height="925" href="./assets/img/perfil.webp"/>
                      </defs>
                   </svg>
                </div>
@@ -146,14 +162,13 @@
                  <h2 class="section__title">
                      About Me
                  </h2>
-                  <p class="about__description">
-                     A skilled developer proficient in both front-end and back-end development. With 
-                     expertise in languages like HTML, CSS, JavaScript, and React 
-                     Native, Carlos excels in crafting engaging user interfaces, 
-                     ensuring seamless web experiences. Their exceptional English-speaking 
-                     skills enhance communication, making them a valuable asset for collaborative 
-                     projects.
-                  </p>
+                   <p class="about__description">
+                      Soy desarrollador web con experiencia en front-end y back-end.
+                      Domino HTML, CSS, JavaScript, React Native y MySQL, y me
+                      apasiona transformar ideas en productos digitales funcionales.
+                      Me destaco por mi comunicación clara, trabajo en equipo y
+                      enfoque en la calidad del código.
+                   </p>
                   <a href="#contact" class="button">Contact</a>
                </div>
                <div class="about__image">
@@ -186,8 +201,7 @@
                            <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
                         </pattern>
                   
-                        <!-- Insert your profile (recommended size: 640 x 940) -->
-                        <image class="about__img" id="imageBorder" width="640" height="940" href="/assets/img/perfil.png"/>
+                          <image class="about__img" id="imageBorder" width="640" height="940" href="./assets/img/perfil.webp"/>
                      </defs>
                   </svg>
                </div>
@@ -201,14 +215,13 @@
                   <h3 class="section__subtitle">
                      Favorite <span>Skills</span>
                   </h3>
-                  <h2 class="section__title">
-                     My Skills
-                  </h2>
-                  See fully what skills i have and perform,
-                  to develop the projects for you.
-                  <p class="skills__description">
-
-                  </p>
+                   <h2 class="section__title">
+                      My Skills
+                   </h2>
+                   <p class="skills__description">
+                      Tecnologías y herramientas que uso para desarrollar
+                      proyectos web completos y funcionales.
+                   </p>
                   <a href="#projects" class="button">See Projects</a>
                </div>
                <div class="skills__content">
@@ -242,7 +255,7 @@
                <article class="services__card">
                   <i class="ri-layout-3-line services__icon"></i>
 
-                  <h2 class="services__tittle">Web Developer</h2>
+                   <h2 class="services__title">Web Developer</h2>
 
                   <p class="services__description">
                      Development of custom web pages. 
@@ -253,7 +266,7 @@
 
                <article class="services__card">
                   <i class="ri-pantone-line services__icon"></i>
-                  <h2 class="services__tittle">UI/UX Designer</h2>
+                   <h2 class="services__title">UI/UX Designer</h2>
 
                   <p class="services__description">
                      I offer design of web interfaces and 
@@ -265,7 +278,7 @@
                <article class="services__card">
                   <i class="ri-pen-nib-line services__icon"></i>
 
-                  <h2 class="services__tittle">Graphic Design</h2>
+                   <h2 class="services__title">Graphic Design</h2>
 
                   <p class="services__description">
                      I make designs at the client's request, 
@@ -286,95 +299,94 @@
             </h2>
 
             <div class="projects__container container grid">
-                <article class="projects__card">
-                  <img src="/assets/img/project-img-1.jpg" alt="projects image" class="projects__img">
-                 
-                  <div class="projects__modal">
-                     <span class="projects__subtitle">Web</span>
+                 <article class="projects__card">
+                   <img src="./assets/img/project-img-1.jpg" alt="projects image" class="projects__img" loading="lazy">
+                  
+                   <div class="projects__modal">
+                      <span class="projects__subtitle">Web App</span>
 
-                     <h2 class="projects__title">Modern Website</h2>
+                      <h2 class="projects__title">Gestión de Tareas</h2>
 
-                     <a href="#" class="projects__button">
-                        View demo <i class="ri-external-link-line"></i>
-                     </a>
-                  </div>
-                </article>
+                      <a href="#" class="projects__button">
+                         View demo <i class="ri-external-link-line"></i>
+                      </a>
+                   </div>
+                 </article>
 
-                <article class="projects__card">
-                  <img src="/assets/img/project-img-2.jpg" alt="projects image" class="projects__img">
-                 
-                  <div class="projects__modal">
-                     <span class="projects__subtitle">Web</span>
+                 <article class="projects__card">
+                   <img src="./assets/img/project-img-2.jpg" alt="projects image" class="projects__img" loading="lazy">
+                  
+                   <div class="projects__modal">
+                      <span class="projects__subtitle">E-commerce</span>
 
-                     <h2 class="projects__title">Modern Website</h2>
+                      <h2 class="projects__title">Tienda Online</h2>
 
-                     <a href="#" class="projects__button">
-                        View demo <i class="ri-external-link-line"></i>
-                     </a>
-                  </div>
-                </article>
+                      <a href="#" class="projects__button">
+                         View demo <i class="ri-external-link-line"></i>
+                      </a>
+                   </div>
+                 </article>
 
-                <article class="projects__card">
-                  <img src="/assets/img/project-img-3.jpg" alt="projects image" class="projects__img">
-                 
-                  <div class="projects__modal">
-                     <span class="projects__subtitle">Web</span>
+                 <article class="projects__card">
+                   <img src="./assets/img/project-img-3.jpg" alt="projects image" class="projects__img" loading="lazy">
+                  
+                   <div class="projects__modal">
+                      <span class="projects__subtitle">API</span>
 
-                     <h2 class="projects__title">Modern Website</h2>
+                      <h2 class="projects__title">REST API Clientes</h2>
 
-                     <a href="#" class="projects__button">
-                        View demo <i class="ri-external-link-line"></i>
-                     </a>
-                  </div>
-                </article>
+                      <a href="#" class="projects__button">
+                         View demo <i class="ri-external-link-line"></i>
+                      </a>
+                   </div>
+                 </article>
 
-                <article class="projects__card">
-                  <img src="/assets/img/project-img-4.jpg" alt="projects image" class="projects__img">
-                 
-                  <div class="projects__modal">
-                     <span class="projects__subtitle">Web</span>
+                 <article class="projects__card">
+                   <img src="./assets/img/project-img-4.jpg" alt="projects image" class="projects__img" loading="lazy">
+                  
+                   <div class="projects__modal">
+                      <span class="projects__subtitle">Mobile</span>
 
-                     <h2 class="projects__title">Modern Website</h2>
+                      <h2 class="projects__title">App React Native</h2>
 
-                     <a href="#" class="projects__button">
-                        View demo <i class="ri-external-link-line"></i>
-                     </a>
-                  </div>
-                </article>
+                      <a href="#" class="projects__button">
+                         View demo <i class="ri-external-link-line"></i>
+                      </a>
+                   </div>
+                 </article>
 
-                <article class="projects__card">
-                  <img src="/assets/img/project-img-5.jpg" alt="projects image" class="projects__img">
-                 
-                  <div class="projects__modal">
-                     <span class="projects__subtitle">Web</span>
+                 <article class="projects__card">
+                   <img src="./assets/img/project-img-5.jpg" alt="projects image" class="projects__img" loading="lazy">
+                  
+                   <div class="projects__modal">
+                      <span class="projects__subtitle">Web</span>
 
-                     <h2 class="projects__title">Modern Website</h2>
+                      <h2 class="projects__title">Dashboard Analytics</h2>
 
-                     <a href="#" class="projects__button">
-                        View demo <i class="ri-external-link-line"></i>
-                     </a>
-                  </div>
-                </article>
+                      <a href="#" class="projects__button">
+                         View demo <i class="ri-external-link-line"></i>
+                      </a>
+                   </div>
+                 </article>
 
-                <article class="projects__card">
-                  <img src="/assets/img/project-img-6.jpg" alt="projects image" class="projects__img">
-                 
-                  <div class="projects__modal">
-                     <span class="projects__subtitle">Web</span>
+                 <article class="projects__card">
+                   <img src="./assets/img/project-img-6.jpg" alt="projects image" class="projects__img" loading="lazy">
+                  
+                   <div class="projects__modal">
+                      <span class="projects__subtitle">Design</span>
 
-                     <h2 class="projects__title">Modern Website</h2>
+                      <h2 class="projects__title">Branding Personal</h2>
 
-                     <a href="#" class="projects__button">
-                        View demo <i class="ri-external-link-line"></i>
-                     </a>
-                  </div>
-                </article>
+                      <a href="#" class="projects__button">
+                         View demo <i class="ri-external-link-line"></i>
+                      </a>
+                   </div>
+                 </article>
             </div>
          </section>
 
          <!--==================== CONTACT ====================-->
          <section class="contact section" id="contact">
-            <!-- 
             <h3 class="section__subtitle">
                Get In <span>Touch</span>
             </h3>
@@ -398,7 +410,7 @@
                      Send Message
                   </button>
                </form>
-            </div>-->
+            </div>
          </section>
       </main>
 
@@ -415,17 +427,17 @@
                </h2>
             </div>
 
-            <div class="footer__social">
-               <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
-                  <i class="ri-facebook-circle-line"></i>
-               </a>
-               <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
-                  <i class="ri-instagram-line"></i>
-               </a>
-               <a href="" target="_blank" class="footer__social-link">
-                  <i class="ri-whatsapp-line"></i>
-               </a>
-            </div>
+             <div class="footer__social">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link" aria-label="Facebook">
+                   <i class="ri-facebook-circle-line"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link" aria-label="Instagram">
+                   <i class="ri-instagram-line"></i>
+                </a>
+                <a href="" target="_blank" class="footer__social-link" aria-label="WhatsApp">
+                   <i class="ri-whatsapp-line"></i>
+                </a>
+             </div>
             <span class="footer__copy">
                &#169; Copyright Carlos W. Quezada de la Cruz. All rights reserved
             </span>
@@ -433,17 +445,17 @@
       </footer>
 
       <!--========== SCROLL UP ==========-->
-         <a href="#" class="scrollup" id="scroll-up">
+         <a href="#home" class="scrollup" id="scroll-up">
             <i class="ri-arrow-up-line"></i> 
          </a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src="/assets/js/scrollreveal.min.js"></script>
+      <script src="./assets/js/scrollreveal.min.js"></script>
 
       <!--=============== EMAIL JS ===============-->
       <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
+      <script src="assets/js/main.js" defer></script>
    </body>
 </html>
