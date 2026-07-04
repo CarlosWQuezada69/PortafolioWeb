@@ -1,0 +1,79 @@
+{
+  "nav": {
+    "logo": "Carlos W. <span>Quezada de la Cruz</span>",
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "About", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "home": {
+    "subtitle": "Hello, <span>I'm</span>",
+    "title": "Carlos W. Quezada de la Cruz",
+    "education": "Front-end Developer",
+    "description": "Desarrollador full-stack apasionado por crear experiencias web modernas y funcionales. Especializado en front-end con HTML, CSS, JavaScript y React Native, construyo soluciones digitales que combinan diseño atractivo con rendimiento sólido.",
+    "button": "Let's Talk",
+    "social": [
+      { "url": "https://github.com/", "icon": "ri-github-fill", "label": "GitHub" },
+      { "url": "https://www.linkedin.com/", "icon": "ri-linkedin-box-line", "label": "LinkedIn" },
+      { "url": "https://www.instagram.com/", "icon": "ri-instagram-line", "label": "Instagram" }
+    ],
+    "image": "./assets/img/perfil.webp"
+  },
+  "about": {
+    "subtitle": "My <span>Intro</span>",
+    "title": "About Me",
+    "description": "Soy desarrollador web con experiencia en front-end y back-end. Domino HTML, CSS, JavaScript, React Native y MySQL, y me apasiona transformar ideas en productos digitales funcionales. Me destaco por mi comunicación clara, trabajo en equipo y enfoque en la calidad del código.",
+    "button": "Contact"
+  },
+  "skills": {
+    "subtitle": "Favorite <span>Skills</span>",
+    "title": "My Skills",
+    "description": "Tecnologías y herramientas que uso para desarrollar proyectos web completos y funcionales.",
+    "groups": [
+      ["HTML & CSS", "JavaScript", "React Native", "MySQL"],
+      ["Git & GitHub", "Figma", "Photoshop"]
+    ]
+  },
+  "services": [
+    {
+      "icon": "ri-layout-3-line",
+      "title": "Web Developer",
+      "description": "Development of custom web pages. Using current technologies and libraries of the labor field."
+    },
+    {
+      "icon": "ri-pantone-line",
+      "title": "UI/UX Designer",
+      "description": "I offer design of web interfaces and mobile applications, design made in figma."
+    },
+    {
+      "icon": "ri-pen-nib-line",
+      "title": "Graphic Design",
+      "description": "I make designs at the client's request, banner design, posters, digital designs among others."
+    }
+  ],
+  "projects": [
+    { "img": "./assets/img/project-img-1.jpg", "subtitle": "Web App", "title": "Gestión de Tareas", "url": "#" },
+    { "img": "./assets/img/project-img-2.jpg", "subtitle": "E-commerce", "title": "Tienda Online", "url": "#" },
+    { "img": "./assets/img/project-img-3.jpg", "subtitle": "API", "title": "REST API Clientes", "url": "#" },
+    { "img": "./assets/img/project-img-4.jpg", "subtitle": "Mobile", "title": "App React Native", "url": "#" },
+    { "img": "./assets/img/project-img-5.jpg", "subtitle": "Web", "title": "Dashboard Analytics", "url": "#" },
+    { "img": "./assets/img/project-img-6.jpg", "subtitle": "Design", "title": "Branding Personal", "url": "#" }
+  ],
+  "contact": {
+    "subtitle": "Get In <span>Touch</span>",
+    "title": "Contact Me"
+  },
+  "footer": {
+    "title": "Carlos W. <span>Quezada de la Cruz.</span>",
+    "education": "Front-end Developer",
+    "social": [
+      { "url": "https://www.facebook.com/", "icon": "ri-facebook-circle-line", "label": "Facebook" },
+      { "url": "https://www.instagram.com/", "icon": "ri-instagram-line", "label": "Instagram" },
+      { "url": "", "icon": "ri-whatsapp-line", "label": "WhatsApp" }
+    ],
+    "copy": "&#169; Copyright Carlos W. Quezada de la Cruz. All rights reserved"
+  }
+}
