@@ -18,8 +18,8 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://carloswquezada69.github.io/PortafolioWeb">
   <meta property="og:image" content="https://carloswquezada69.github.io/PortafolioWeb/assets/img/perfil.webp">
-  <meta property="og:image:width" content="512">
-  <meta property="og:image:height" content="512">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:locale" content="es_DO">
 
   <meta name="twitter:card" content="summary">
@@ -29,6 +29,7 @@
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.json">
   <link rel="canonical" href="https://carloswquezada69.github.io/PortafolioWeb">
+  <link rel="alternate" hreflang="es" href="https://carloswquezada69.github.io/PortafolioWeb/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
@@ -68,6 +69,7 @@
     body{font-family:var(--body-font);font-size:var(--normal-font-size);background-color:var(--body-color);color:var(--text-color);-webkit-font-smoothing:antialiased}
     a{text-decoration:none;touch-action:manipulation}
     img{max-width:100%;height:auto}
+    .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
   </style>
 
   <script type="application/ld+json">
@@ -117,10 +119,18 @@
   </header>
 
   <main class="main" id="main-content" role="main">
-    <section class="home section" id="home" aria-label="Inicio"></section>
-    <section class="about section" id="about" aria-label="Sobre mí"></section>
-    <section class="projects section" id="projects" aria-label="Experiencia"></section>
-    <section class="contact section" id="contact" aria-label="Contacto"></section>
+    <section class="home section" id="home" aria-label="Inicio">
+      <h1 class="sr-only">Carlos Quezada — Fullstack Developer</h1>
+    </section>
+    <section class="about section" id="about" aria-label="Sobre mí">
+      <h2 class="sr-only">Sobre mí — Carlos Quezada</h2>
+    </section>
+    <section class="projects section" id="projects" aria-label="Experiencia">
+      <h2 class="sr-only">Experiencia y Proyectos</h2>
+    </section>
+    <section class="contact section" id="contact" aria-label="Contacto">
+      <h2 class="sr-only">Contacto</h2>
+    </section>
   </main>
 
   <footer class="footer" id="footer"></footer>

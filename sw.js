@@ -9,7 +9,8 @@ const ASSETS = [
   '/PortafolioWeb/assets/img/perfil.webp',
   '/PortafolioWeb/assets/img/favicon.svg',
   '/PortafolioWeb/assets/img/icon-192.png',
-  '/PortafolioWeb/assets/img/icon-512.png'
+  '/PortafolioWeb/assets/img/icon-512.png',
+  '/PortafolioWeb/404.html'
 ]
 
 self.addEventListener('install', event => {
