@@ -1,79 +1,103 @@
 {
   "nav": {
-    "logo": "Carlos <span>Quezada</span>",
+    "logo": "C<span>Q</span><small> Portfolio</small>",
     "links": [
       { "label": "Home", "href": "#home" },
       { "label": "About", "href": "#about" },
-      { "label": "Services", "href": "#services" },
-      { "label": "Projects", "href": "#projects" },
+      { "label": "Experience", "href": "#projects" },
       { "label": "Contact", "href": "#contact" }
     ]
   },
   "home": {
     "subtitle": "Hello, <span>I'm</span>",
     "title": "Carlos Quezada",
-    "education": "Front-end Developer",
-    "description": "Desarrollador full-stack apasionado por crear experiencias web modernas y funcionales. Especializado en front-end con HTML, CSS, JavaScript y React Native, construyo soluciones digitales que combinan diseño atractivo con rendimiento sólido.",
-    "button": "Let's Talk",
-    "social": [
-      { "url": "https://github.com/", "icon": "ri-github-fill", "label": "GitHub" },
-      { "url": "https://www.linkedin.com/", "icon": "ri-linkedin-box-line", "label": "LinkedIn" },
-      { "url": "https://www.instagram.com/", "icon": "ri-instagram-line", "label": "Instagram" }
-    ],
+    "education": "Fullstack Developer",
+    "description": "Full-stack developer especializado en desarrollo web, automatización de procesos y análisis de datos.",
     "image": "./assets/img/perfil.webp"
   },
   "about": {
     "subtitle": "My <span>Intro</span>",
     "title": "About Me",
-    "description": "Soy desarrollador web con experiencia en front-end y back-end. Domino HTML, CSS, JavaScript, React Native y MySQL, y me apasiona transformar ideas en productos digitales funcionales. Me destaco por mi comunicación clara, trabajo en equipo y enfoque en la calidad del código.",
-    "button": "Contact"
+    "description": "Licenciado en Informática (UASD) con enfoque full-stack. Experiencia en desarrollo web, automatización de procesos, soporte IT y análisis de datos. Actualmente cursando una maestría en Ciencia de Datos e Inteligencia Artificial. Capacidad para trabajar en equipos multidisciplinarios y resolver problemas complejos mediante soluciones tecnológicas eficientes.",
+    "skills": ["HTML & CSS", "JavaScript", "React", "Angular", "Python", "Django", "C#", "SQL Server", "PostgreSQL", "C / C++", "Git & GitHub", "Figma", "Photoshop", "Illustrator", "Excel Avanzado", "Automatización Excel", "Ciberseguridad", "Inglés B2"]
   },
-  "skills": {
-    "subtitle": "Favorite <span>Skills</span>",
-    "title": "My Skills",
-    "description": "Tecnologías y herramientas que uso para desarrollar proyectos web completos y funcionales.",
-    "groups": [
-      ["HTML & CSS", "JavaScript", "React Native", "MySQL"],
-      ["Git & GitHub", "Figma", "Photoshop"]
-    ]
-  },
-  "services": [
-    {
-      "icon": "ri-layout-3-line",
-      "title": "Web Developer",
-      "description": "Development of custom web pages. Using current technologies and libraries of the labor field."
-    },
-    {
-      "icon": "ri-pantone-line",
-      "title": "UI/UX Designer",
-      "description": "I offer design of web interfaces and mobile applications, design made in figma."
-    },
-    {
-      "icon": "ri-pen-nib-line",
-      "title": "Graphic Design",
-      "description": "I make designs at the client's request, banner design, posters, digital designs among others."
-    }
-  ],
   "projects": [
-    { "img": "./assets/img/project-img-1.jpg", "subtitle": "Web App", "title": "Gestión de Tareas", "url": "#" },
-    { "img": "./assets/img/project-img-2.jpg", "subtitle": "E-commerce", "title": "Tienda Online", "url": "#" },
-    { "img": "./assets/img/project-img-3.jpg", "subtitle": "API", "title": "REST API Clientes", "url": "#" },
-    { "img": "./assets/img/project-img-4.jpg", "subtitle": "Mobile", "title": "App React Native", "url": "#" },
-    { "img": "./assets/img/project-img-5.jpg", "subtitle": "Web", "title": "Dashboard Analytics", "url": "#" },
-    { "img": "./assets/img/project-img-6.jpg", "subtitle": "Design", "title": "Branding Personal", "url": "#" }
+    {
+      "year": "2026",
+      "title": "TaskFlow",
+      "description": "App de notas con checklist estilo Google Keep, autenticación JWT y modo oscuro.",
+      "tags": ["JavaScript", "JWT", "Node.js"],
+      "url": "https://github.com/CarlosWQuezada69/proyectoTodoList",
+      "img": ""
+    },
+    {
+      "year": "2026",
+      "title": "EsperaGo",
+      "description": "Sistema de gestión de turnos y colas de espera.",
+      "tags": ["C#", ".NET"],
+      "url": "https://github.com/CarlosWQuezada69/PROYECTO-EsperaGo",
+      "img": ""
+    },
+    {
+      "year": "2025",
+      "title": "Punto de Venta",
+      "description": "Sistema de punto de venta con interfaz web.",
+      "tags": ["C#", "HTML", "CSS"],
+      "url": "",
+      "img": ""
+    },
+    {
+      "year": "2024",
+      "title": "UCOsearch",
+      "description": "Sistema web para la carga y consulta de tesis de grado, postgrado y monográficos. UASD.",
+      "tags": ["Python", "Django", "PostgreSQL"],
+      "url": "",
+      "img": ""
+    },
+    {
+      "year": "2023",
+      "title": "Twitter Clone",
+      "description": "Réplica de la interfaz de Twitter con fines educativos.",
+      "tags": ["HTML", "CSS"],
+      "url": "https://github.com/CarlosWQuezada69/interfazdeTwitterCopia",
+      "img": ""
+    },
+    {
+      "year": "2020 - 2023",
+      "title": "Soporte Técnico / Digitador / Diseñador Gráfico",
+      "description": "Distribuidora San Juan. Soporte IT, diseño gráfico y digitación.",
+      "tags": ["Soporte IT", "Photoshop", "Illustrator", "Excel"],
+      "url": "",
+      "img": ""
+    },
+    {
+      "year": "2018 - 2020",
+      "title": "Desarrollador Freelance",
+      "description": "Apps web y desktop a medida.",
+      "tags": ["HTML", "CSS", "JavaScript", "Python", "SQL Server"],
+      "url": "",
+      "img": ""
+    },
+    {
+      "year": "2017 - 2023",
+      "title": "Soporte Técnico Freelance",
+      "description": "Mantenimiento y soporte de equipos informáticos.",
+      "tags": ["Hardware", "Software", "Redes"],
+      "url": "",
+      "img": ""
+    }
   ],
   "contact": {
     "subtitle": "Get In <span>Touch</span>",
-    "title": "Contact Me"
+    "title": "Contact Me",
+    "social": [
+      { "url": "https://github.com/", "icon": "ri-github-fill", "label": "GitHub" },
+      { "url": "https://www.linkedin.com/", "icon": "ri-linkedin-box-line", "label": "LinkedIn" },
+      { "url": "https://www.instagram.com/", "icon": "ri-instagram-line", "label": "Instagram" }
+    ]
   },
   "footer": {
     "title": "Carlos <span>Quezada</span>",
-    "education": "Front-end Developer",
-    "social": [
-      { "url": "https://www.facebook.com/", "icon": "ri-facebook-circle-line", "label": "Facebook" },
-      { "url": "https://www.instagram.com/", "icon": "ri-instagram-line", "label": "Instagram" },
-      { "url": "", "icon": "ri-whatsapp-line", "label": "WhatsApp" }
-    ],
     "copy": "&#169; Copyright Carlos Quezada. All rights reserved"
   }
 }

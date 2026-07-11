@@ -1,213 +1,176 @@
 <!DOCTYPE html>
-   <html lang="es">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Carlos Quezada — Fullstack Developer</title>
+  <meta name="description" content="Portafolio de Carlos Quezada, Fullstack Developer especializado en desarrollo web, automatización de procesos y análisis de datos. React, Angular, Python, Django, C#.">
+  <meta name="keywords" content="desarrollador fullstack, portafolio, React, Angular, Python, Django, C#, SQL Server, PostgreSQL, UASD, Carlos Quezada">
+  <meta name="author" content="Carlos Quezada">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1a1d29">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
 
-      <meta name="description" content="Portafolio de Carlos Quezada — Desarrollador full-stack especializado en front-end con HTML, CSS, JavaScript y React Native.">
-      <meta name="keywords" content="desarrollador web, front-end, React Native, portafolio, HTML, CSS, JavaScript, Carlos Quezada">
-      <meta name="author" content="Carlos Quezada">
-      <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Carlos Quezada — Fullstack Developer">
+  <meta property="og:description" content="Fullstack Developer especializado en desarrollo web, automatización de procesos y análisis de datos.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://carloswquezada69.github.io/PortafolioWeb">
+  <meta property="og:image" content="https://carloswquezada69.github.io/PortafolioWeb/assets/img/perfil.webp">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:locale" content="es_DO">
 
-      <meta property="og:title" content="Carlos Quezada — Portafolio">
-      <meta property="og:description" content="Desarrollador full-stack apasionado por crear experiencias web modernas y funcionales.">
-      <meta property="og:type" content="website">
-      <meta property="og:url" content="">
-      <meta property="og:image" content="./assets/img/perfil.webp">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Carlos Quezada — Fullstack Developer">
+  <meta name="twitter:description" content="Fullstack Developer especializado en desarrollo web, automatización de procesos y análisis de datos.">
 
-      <link rel="shortcut icon" href="assets/img/letter-w.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/img/letter-w.png" type="image/x-icon">
+  <link rel="canonical" href="https://carloswquezada69.github.io/PortafolioWeb">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Carlos Quezada",
+    "jobTitle": "Fullstack Developer",
+    "url": "https://carloswquezada69.github.io/PortafolioWeb",
+    "image": "https://carloswquezada69.github.io/PortafolioWeb/assets/img/perfil.webp",
+    "knowsAbout": ["HTML", "CSS", "JavaScript", "React", "Angular", "Python", "Django", "C#", "SQL Server", "PostgreSQL"],
+    "alumniOf": "Universidad Autónoma de Santo Domingo",
+    "knowsLanguage": ["Español", "Inglés"]
+  }
+  </script>
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Navegación principal" id="nav"></nav>
+  </header>
 
-      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+  <main class="main">
+    <section class="home section" id="home" aria-label="Inicio"></section>
+    <section class="about section" id="about" aria-label="Sobre mí"></section>
+    <section class="projects section" id="projects" aria-label="Experiencia"></section>
+    <section class="contact section" id="contact" aria-label="Contacto"></section>
+  </main>
 
-      <link rel="stylesheet" href="assets/css/styles.css">
+  <footer class="footer" id="footer"></footer>
 
-      <title>Carlos Quezada — Portafolio</title>
-   </head>
-   <body>
-      <header class="header" id="header">
-         <nav class="nav container" aria-label="Navegación principal" id="nav"></nav>
-      </header>
+  <a href="#home" class="scrollup" id="scroll-up" aria-label="Volver al inicio">
+    <i class="ri-arrow-up-line"></i>
+  </a>
 
-      <main class="main">
-         <section class="home section" id="home"></section>
-         <section class="about section" id="about"></section>
-         <section class="skills section" id="skills"></section>
-         <section class="services section" id="services"></section>
-         <section class="projects section" id="projects"></section>
-         <section class="contact section" id="contact"></section>
-      </main>
-
-      <footer class="footer" id="footer"></footer>
-
-      <a href="#home" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-line"></i>
-      </a>
-
-      <script type="application/json" id="content-data">{
+  <script type="application/json" id="content-data">{
   "nav": {
-    "logo": "Carlos <span>Quezada</span>",
+    "logo": "C<span>Q</span><small> Portfolio</small>",
     "links": [
-      {
-        "label": "Home",
-        "href": "#home"
-      },
-      {
-        "label": "About",
-        "href": "#about"
-      },
-      {
-        "label": "Services",
-        "href": "#services"
-      },
-      {
-        "label": "Projects",
-        "href": "#projects"
-      },
-      {
-        "label": "Contact",
-        "href": "#contact"
-      }
+      { "label": "Home", "href": "#home" },
+      { "label": "About", "href": "#about" },
+      { "label": "Experience", "href": "#projects" },
+      { "label": "Contact", "href": "#contact" }
     ]
   },
   "home": {
     "subtitle": "Hello, <span>I'm</span>",
     "title": "Carlos Quezada",
-    "education": "Front-end Developer",
-    "description": "Desarrollador full-stack apasionado por crear experiencias web modernas y funcionales. Especializado en front-end con HTML, CSS, JavaScript y React Native, construyo soluciones digitales que combinan diseño atractivo con rendimiento sólido.",
-    "button": "Let's Talk",
-    "social": [
-      {
-        "url": "https://github.com/",
-        "icon": "ri-github-fill",
-        "label": "GitHub"
-      },
-      {
-        "url": "https://www.linkedin.com/",
-        "icon": "ri-linkedin-box-line",
-        "label": "LinkedIn"
-      },
-      {
-        "url": "https://www.instagram.com/",
-        "icon": "ri-instagram-line",
-        "label": "Instagram"
-      }
-    ],
+    "education": "Fullstack Developer",
+    "description": "Full-stack developer especializado en desarrollo web, automatización de procesos y análisis de datos.",
     "image": "./assets/img/perfil.webp"
   },
   "about": {
     "subtitle": "My <span>Intro</span>",
     "title": "About Me",
-    "description": "Soy desarrollador web con experiencia en front-end y back-end. Domino HTML, CSS, JavaScript, React Native y MySQL, y me apasiona transformar ideas en productos digitales funcionales. Me destaco por mi comunicación clara, trabajo en equipo y enfoque en la calidad del código.",
-    "button": "Contact"
+    "description": "Licenciado en Informática (UASD) con enfoque full-stack. Experiencia en desarrollo web, automatización de procesos, soporte IT y análisis de datos. Actualmente cursando una maestría en Ciencia de Datos e Inteligencia Artificial. Capacidad para trabajar en equipos multidisciplinarios y resolver problemas complejos mediante soluciones tecnológicas eficientes.",
+    "skills": ["HTML & CSS", "JavaScript", "React", "Angular", "Python", "Django", "C#", "SQL Server", "PostgreSQL", "C / C++", "Git & GitHub", "Figma", "Photoshop", "Illustrator", "Excel Avanzado", "Automatización Excel", "Ciberseguridad", "Inglés B2"]
   },
-  "skills": {
-    "subtitle": "Favorite <span>Skills</span>",
-    "title": "My Skills",
-    "description": "Tecnologías y herramientas que uso para desarrollar proyectos web completos y funcionales.",
-    "groups": [
-      [
-        "HTML & CSS",
-        "JavaScript",
-        "React Native",
-        "MySQL"
-      ],
-      [
-        "Git & GitHub",
-        "Figma",
-        "Photoshop"
-      ]
-    ]
-  },
-  "services": [
-    {
-      "icon": "ri-layout-3-line",
-      "title": "Web Developer",
-      "description": "Development of custom web pages. Using current technologies and libraries of the labor field."
-    },
-    {
-      "icon": "ri-pantone-line",
-      "title": "UI/UX Designer",
-      "description": "I offer design of web interfaces and mobile applications, design made in figma."
-    },
-    {
-      "icon": "ri-pen-nib-line",
-      "title": "Graphic Design",
-      "description": "I make designs at the client's request, banner design, posters, digital designs among others."
-    }
-  ],
   "projects": [
     {
-      "img": "./assets/img/project-img-1.jpg",
-      "subtitle": "Web App",
-      "title": "Gestión de Tareas",
-      "url": "#"
+      "year": "2026",
+      "title": "TaskFlow",
+      "description": "App de notas con checklist estilo Google Keep, autenticación JWT y modo oscuro.",
+      "tags": ["JavaScript", "JWT", "Node.js"],
+      "url": "https://github.com/CarlosWQuezada69/proyectoTodoList",
+      "img": ""
     },
     {
-      "img": "./assets/img/project-img-2.jpg",
-      "subtitle": "E-commerce",
-      "title": "Tienda Online",
-      "url": "#"
+      "year": "2026",
+      "title": "EsperaGo",
+      "description": "Sistema de gestión de turnos y colas de espera.",
+      "tags": ["C#", ".NET"],
+      "url": "https://github.com/CarlosWQuezada69/PROYECTO-EsperaGo",
+      "img": ""
     },
     {
-      "img": "./assets/img/project-img-3.jpg",
-      "subtitle": "API",
-      "title": "REST API Clientes",
-      "url": "#"
+      "year": "2025",
+      "title": "Punto de Venta",
+      "description": "Sistema de punto de venta con interfaz web.",
+      "tags": ["C#", "HTML", "CSS"],
+      "url": "",
+      "img": ""
     },
     {
-      "img": "./assets/img/project-img-4.jpg",
-      "subtitle": "Mobile",
-      "title": "App React Native",
-      "url": "#"
+      "year": "2024",
+      "title": "UCOsearch",
+      "description": "Sistema web para la carga y consulta de tesis de grado, postgrado y monográficos. UASD.",
+      "tags": ["Python", "Django", "PostgreSQL"],
+      "url": "",
+      "img": ""
     },
     {
-      "img": "./assets/img/project-img-5.jpg",
-      "subtitle": "Web",
-      "title": "Dashboard Analytics",
-      "url": "#"
+      "year": "2023",
+      "title": "Twitter Clone",
+      "description": "Réplica de la interfaz de Twitter con fines educativos.",
+      "tags": ["HTML", "CSS"],
+      "url": "https://github.com/CarlosWQuezada69/interfazdeTwitterCopia",
+      "img": ""
     },
     {
-      "img": "./assets/img/project-img-6.jpg",
-      "subtitle": "Design",
-      "title": "Branding Personal",
-      "url": "#"
+      "year": "2020 - 2023",
+      "title": "Soporte Técnico / Digitador / Diseñador Gráfico",
+      "description": "Distribuidora San Juan. Soporte IT, diseño gráfico y digitación.",
+      "tags": ["Soporte IT", "Photoshop", "Illustrator", "Excel"],
+      "url": "",
+      "img": ""
+    },
+    {
+      "year": "2018 - 2020",
+      "title": "Desarrollador Freelance",
+      "description": "Apps web y desktop a medida.",
+      "tags": ["HTML", "CSS", "JavaScript", "Python", "SQL Server"],
+      "url": "",
+      "img": ""
+    },
+    {
+      "year": "2017 - 2023",
+      "title": "Soporte Técnico Freelance",
+      "description": "Mantenimiento y soporte de equipos informáticos.",
+      "tags": ["Hardware", "Software", "Redes"],
+      "url": "",
+      "img": ""
     }
   ],
   "contact": {
     "subtitle": "Get In <span>Touch</span>",
-    "title": "Contact Me"
+    "title": "Contact Me",
+    "social": [
+      { "url": "https://github.com/", "icon": "ri-github-fill", "label": "GitHub" },
+      { "url": "https://www.linkedin.com/", "icon": "ri-linkedin-box-line", "label": "LinkedIn" },
+      { "url": "https://www.instagram.com/", "icon": "ri-instagram-line", "label": "Instagram" }
+    ]
   },
   "footer": {
     "title": "Carlos <span>Quezada</span>",
-    "education": "Front-end Developer",
-    "social": [
-      {
-        "url": "https://www.facebook.com/",
-        "icon": "ri-facebook-circle-line",
-        "label": "Facebook"
-      },
-      {
-        "url": "https://www.instagram.com/",
-        "icon": "ri-instagram-line",
-        "label": "Instagram"
-      },
-      {
-        "url": "",
-        "icon": "ri-whatsapp-line",
-        "label": "WhatsApp"
-      }
-    ],
     "copy": "&#169; Copyright Carlos Quezada. All rights reserved"
   }
 }</script>
 
-      <script src="./assets/js/scrollreveal.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-      <script src="assets/js/render.js"></script>
-      <script src="assets/js/main.js" defer></script>
-   </body>
+  <script src="assets/js/render.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
