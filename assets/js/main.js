@@ -71,17 +71,24 @@ const scrollActive = () => {
 window.addEventListener('scroll', scrollActive)
 
 /*=============== REVEAL ANIMATIONS ===============*/
+let lastScrollY = window.scrollY
+
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
+    const scrollDir = window.scrollY > lastScrollY ? 'down' : 'up'
     if (entry.isIntersecting) {
+      entry.target.classList.remove('reveal-up', 'reveal-down')
+      entry.target.classList.add(scrollDir === 'up' ? 'reveal-up' : 'reveal-down')
       requestAnimationFrame(() => {
         requestAnimationFrame(() => {
           entry.target.classList.add('reveal-visible')
-          revealObserver.unobserve(entry.target)
         })
       })
+    } else {
+      entry.target.classList.remove('reveal-visible', 'reveal-up', 'reveal-down')
     }
   })
+  lastScrollY = window.scrollY
 }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' })
 
 document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el))

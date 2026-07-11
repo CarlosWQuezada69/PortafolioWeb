@@ -699,6 +699,14 @@ svg{
   transition: opacity .6s ease, transform .6s ease;
 }
 
+.reveal.reveal-up {
+  transform: translateY(-30px);
+}
+
+.reveal.reveal-down {
+  transform: translateY(30px);
+}
+
 .reveal.reveal-visible {
   opacity: 1;
   transform: translateY(0);
