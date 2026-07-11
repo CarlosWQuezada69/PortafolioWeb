@@ -31,29 +31,58 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" as="style">
+  <link rel="preload" href="assets/img/perfil.webp" as="image" fetchpriority="high">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Carlos Quezada",
-    "jobTitle": "Fullstack Developer",
-    "url": "https://carloswquezada69.github.io/PortafolioWeb",
-    "image": "https://carloswquezada69.github.io/PortafolioWeb/assets/img/perfil.webp",
-    "knowsAbout": ["HTML", "CSS", "JavaScript", "React", "Angular", "Python", "Django", "C#", "SQL Server", "PostgreSQL"],
-    "alumniOf": "Universidad Autónoma de Santo Domingo",
-    "knowsLanguage": ["Español", "Inglés"]
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Carlos Quezada — Fullstack Developer",
+        "url": "https://carloswquezada69.github.io/PortafolioWeb",
+        "description": "Portafolio de Carlos Quezada, Fullstack Developer especializado en desarrollo web, automatización de procesos y análisis de datos.",
+        "inLanguage": "es-DO",
+        "author": {
+          "@id": "#person"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "#person",
+        "name": "Carlos Quezada",
+        "jobTitle": "Fullstack Developer",
+        "url": "https://carloswquezada69.github.io/PortafolioWeb",
+        "image": "https://carloswquezada69.github.io/PortafolioWeb/assets/img/perfil.webp",
+        "sameAs": [
+          "https://github.com/CarlosWQuezada69",
+          "https://www.linkedin.com/in/carlos-warner-q-94b41b238/",
+          "https://www.instagram.com/c.w.q.c/?hl=en"
+        ],
+        "knowsAbout": ["HTML", "CSS", "JavaScript", "React", "Angular", "Python", "Django", "C#", "SQL Server", "PostgreSQL", "Ciberseguridad"],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Universidad Autónoma de Santo Domingo"
+        },
+        "knowsLanguage": [
+          { "@type": "Language", "name": "Español", "alternateName": "es" },
+          { "@type": "Language", "name": "English", "alternateName": "en" }
+        ]
+      }
+    ]
   }
   </script>
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
   <header class="header" id="header">
     <nav class="nav container" aria-label="Navegación principal" id="nav"></nav>
   </header>
 
-  <main class="main">
+  <main class="main" id="main-content" role="main">
     <section class="home section" id="home" aria-label="Inicio"></section>
     <section class="about section" id="about" aria-label="Sobre mí"></section>
     <section class="projects section" id="projects" aria-label="Experiencia"></section>
