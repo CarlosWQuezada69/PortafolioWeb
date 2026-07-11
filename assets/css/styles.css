@@ -59,7 +59,8 @@ body.light-theme .home::before {
 }
 
 body.light-theme .nav__menu {
-  background-color: hsla(228, 80%, 97%, .5);
+  background-color: hsla(228, 80%, 97%, .9);
+  box-shadow: -4px 0 20px hsla(228, 15%, 8%, .08);
 }
 
 body.light-theme .blur-header::after {
