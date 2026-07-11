@@ -1,0 +1,25 @@
+{
+  "name": "Carlos Quezada — Fullstack Developer",
+  "short_name": "CQ Portfolio",
+  "description": "Portafolio profesional de Carlos Quezada, Fullstack Developer.",
+  "start_url": "/PortafolioWeb/",
+  "scope": "/PortafolioWeb/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1a1d29",
+  "theme_color": "#1a1d29",
+  "icons": [
+    {
+      "src": "assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

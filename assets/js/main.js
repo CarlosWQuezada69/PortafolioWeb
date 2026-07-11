@@ -94,4 +94,4 @@ const revealObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el))
 
 /*=============== SERVICE WORKER ===============*/
-'serviceWorker' in navigator && navigator.serviceWorker.register('/sw.js').catch(() => {})
+'serviceWorker' in navigator && navigator.serviceWorker.register('sw.js').catch(() => {})
